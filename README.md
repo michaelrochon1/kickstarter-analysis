@@ -12,8 +12,12 @@ When working with a dataset with this many datapoints and an array of categories
 ### Analysis of Outcomes Based on Launch Date
 While the launch month does seem like it would be an irrelevant point of analysis, however upon further analysis it does seem like the percentage of successful kickstarters in the theatre category does decrease in the winter months. Whether this is because the proximity to holiday months and a lack of extra funds in a household, or if it is a symptom of a lack of households wanting to leave the house during the cold winter months is unclear. But it is clear that the number of successful theatre Kickstarters declines after the high point in May.
 
+![Theatre Outcomes vs Launch Date](Resources/Theatre_Outcomes_vs_Launch.png)
+
 ### Analysis of Outcomes Based on Goals
 Analysis of outcomes based on the goal target provides much clearer, and arguably more useful, outcomes. As the goal becomes larger there it is clear that the chance for success, for a play, is much higher the lower the goal. There is an odd point in the 30,000 to 44,999 mark that is difficult to account for but is likely is due to the small sample size. The over 80% fail rate in plays with goals above 50,000 is a clear indicator of the lower likelihood of success.
+
+![Line Chart - Outcomes vs Goals](Resources/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
 Personally, I encountered no difficulties in completing analysis, however I could imagine that COUNTIFS could create some issues with the number of criteria ranges required in the analysis of outcomes based on goals. 
